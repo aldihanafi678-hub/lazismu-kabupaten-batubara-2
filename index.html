@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f28a00">
+  <meta name="description" content="Salurkan zakat, infak, dan sedekah bersama Lazismu Kabupaten Batu Bara. Kebaikan Anda, harapan bagi sesama.">
+  <title>Lazismu Kabupaten Batu Bara — Kebaikan yang Menguatkan</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="topline">
+    <div class="shell topline-inner">
+      <span>LAZISMU KABUPATEN BATU BARA</span>
+      <span class="topline-note"><span class="live-dot"></span> Layanan kebaikan untuk semua</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#beranda" aria-label="Lazismu Kabupaten Batu Bara, beranda">
+        <img src="6071075391641687590.jpg" alt="Logo Lazismu Kabupaten Batu Bara">
+      </a>
+      <nav class="desktop-nav" aria-label="Navigasi utama">
+        <a class="nav-link active" href="#beranda">Beranda</a>
+        <a class="nav-link" href="#program">Program</a>
+        <a class="nav-link" href="#tentang">Tentang kami</a>
+        <a class="nav-link" href="#publikasi">Publikasi</a>
+      </nav>
+      <div class="header-actions">
+        <form class="search-form" id="search-form" role="search">
+          <label class="sr-only" for="search-input">Cari program donasi</label>
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="Cari program..." autocomplete="off">
+          <button type="submit" aria-label="Cari">Cari</button>
+        </form>
+        <button class="button button-primary header-donate" type="button" data-donate>Donasi sekarang <span aria-hidden="true">↗</span></button>
+        <button class="icon-button admin-trigger" type="button" data-login aria-label="Login pengurus" title="Login pengurus">⚙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell" id="beranda">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-star">✳</span> Zakat, infak, sedekah &amp; kemanusiaan</div>
+        <h1 id="hero-title">Kebaikan kecilmu,<br><span>harapan besar</span> untuk mereka.</h1>
+        <p id="hero-subtitle">Mari hadirkan manfaat yang nyata bagi saudara kita di Kabupaten Batu Bara. Bersama, setiap kebaikan menemukan jalannya.</p>
+        <div class="hero-actions">
+          <button class="button button-dark" type="button" data-donate>Mulai berdonasi <span aria-hidden="true">↗</span></button>
+          <a class="text-link" href="#program"><span class="play-icon">↓</span> Jelajahi program</a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>🤲</span><span>💛</span><span>🌱</span></div>
+          <p><strong>Bergerak bersama</strong><br><span>Menguatkan sesama, setiap hari</span></p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img id="hero-image" src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Relawan bergotong royong menyiapkan bantuan">
+        <div class="hero-image-wash"></div>
+        <div class="image-caption">
+          <span class="caption-icon">✳</span>
+          <div><strong>Kebaikan terus bertumbuh</strong><span>Di tengah masyarakat Batu Bara</span></div>
+        </div>
+        <div class="floating-note"><span>♡</span><div><strong>Berbagi itu berarti</strong><small>Untuk masa depan yang lebih baik</small></div></div>
+        <span class="hero-spark spark-one">✳</span><span class="hero-spark spark-two">✳</span>
+      </div>
+      <span class="hero-backdrop-shape" aria-hidden="true"></span>
+    </section>
+
+    <section class="impact-strip shell" aria-label="Dampak kebaikan">
+      <div class="impact-intro"><span class="impact-icon">✳</span><span>Manfaat yang<br>tumbuh bersama</span></div>
+      <div class="impact-item"><strong>6</strong><span>pilar program<br>kebaikan</span></div>
+      <div class="impact-item"><strong>1</strong><span>tujuan, yaitu<br>menguatkan sesama</span></div>
+      <div class="impact-quote">“Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia.” <span>— HR. Ahmad</span></div>
+    </section>
+
+    <section class="section programs-section" id="program">
+      <div class="shell">
+        <div class="section-heading">
+          <div><span class="section-kicker">PILIH JALAN KEBAIKAN</span><h2>Program <span>kebaikan</span></h2></div>
+          <a class="text-link section-more" href="#program-list">Lihat semua program <span>↗</span></a>
+        </div>
+        <div class="category-grid" id="category-grid" aria-label="Filter kategori program">
+          <button class="category-card active" type="button" data-category="Semua">
+            <span class="category-icon category-all">✳</span><span><strong>Semua</strong><small>Program kebaikan</small></span><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" type="button" data-category="Pendidikan">
+            <span class="category-icon category-education">▤</span><span><strong>Pendidikan</strong><small>Bekal masa depan</small></span><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" type="button" data-category="Kesehatan">
+            <span class="category-icon category-health">♡</span><span><strong>Kesehatan</strong><small>Sehat untuk semua</small></span><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" type="button" data-category="Kemanusiaan">
+            <span class="category-icon category-humanity">♧</span><span><strong>Kemanusiaan</strong><small>Hadir saat dibutuhkan</small></span><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" type="button" data-category="Ekonomi">
+            <span class="category-icon category-economy">↗</span><span><strong>Ekonomi</strong><small>Berdaya bersama</small></span><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" type="button" data-category="Lingkungan">
+            <span class="category-icon category-nature">♧</span><span><strong>Lingkungan</strong><small>Merawat bumi kita</small></span><span class="category-arrow">↗</span>
+          </button>
+        </div>
+
+        <div class="section-heading campaign-heading" id="program-list">
+          <div><span class="section-kicker">KEBAIKAN YANG BISA KAMU MULAI</span><h2>Program pilihan</h2></div>
+          <div class="result-label" id="result-label" aria-live="polite"></div>
+        </div>
+        <div class="campaign-grid" id="campaign-grid">
+          <article class="campaign-card" data-category="Pendidikan" data-search="beasiswa cilik pendidikan sekolah perlengkapan belajar">
+            <div class="campaign-image"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="Anak-anak belajar bersama di kelas"><span class="campaign-tag">Pendidikan</span><button class="save-button" type="button" aria-label="Simpan program">♡</button></div>
+            <div class="campaign-content"><div class="campaign-meta"><span>✳ Pendidikan</span><span>Program berkelanjutan</span></div><h3>Bekal ilmu untuk generasi Batu Bara</h3><p>Bantu hadirkan perlengkapan sekolah dan dukungan belajar bagi anak-anak yang membutuhkan.</p><div class="campaign-progress"><div class="progress-label"><span>Target program</span><strong>Dukungan Anda berarti</strong></div><div class="progress-track"><span style="width:68%"></span></div><div class="progress-foot"><span>Setiap kontribusi menambah semangat belajar</span><span>68%</span></div></div><button class="button button-outline campaign-donate" type="button" data-donate data-program="Bekal ilmu untuk generasi Batu Bara">Dukung program <span>↗</span></button></div>
+          </article>
+          <article class="campaign-card" data-category="Kesehatan" data-search="layanan kesehatan sesama berobat sehat ambulans">
+            <div class="campaign-image"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="Tenaga kesehatan memberikan pelayanan"><span class="campaign-tag">Kesehatan</span><button class="save-button" type="button" aria-label="Simpan program">♡</button></div>
+            <div class="campaign-content"><div class="campaign-meta"><span>✳ Kesehatan</span><span>Program berkelanjutan</span></div><h3>Ikhtiar sehat untuk sesama</h3><p>Wujudkan akses layanan kesehatan dan pendampingan bagi keluarga prasejahtera.</p><div class="campaign-progress"><div class="progress-label"><span>Target program</span><strong>Dukungan Anda berarti</strong></div><div class="progress-track"><span style="width:46%"></span></div><div class="progress-foot"><span>Bersama, bantu lebih banyak keluarga</span><span>46%</span></div></div><button class="button button-outline campaign-donate" type="button" data-donate data-program="Ikhtiar sehat untuk sesama">Dukung program <span>↗</span></button></div>
+          </article>
+          <article class="campaign-card" data-category="Kemanusiaan" data-search="bantuan kemanusiaan tanggap bencana keluarga pangan">
+            <div class="campaign-image"><img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="Relawan menyalurkan bantuan untuk masyarakat"><span class="campaign-tag">Kemanusiaan</span><button class="save-button" type="button" aria-label="Simpan program">♡</button></div>
+            <div class="campaign-content"><div class="campaign-meta"><span>✳ Kemanusiaan</span><span>Program berkelanjutan</span></div><h3>Uluran tangan untuk keluarga</h3><p>Salurkan bantuan kebutuhan pokok dan dukungan kemanusiaan untuk saudara kita.</p><div class="campaign-progress"><div class="progress-label"><span>Target program</span><strong>Dukungan Anda berarti</strong></div><div class="progress-track"><span style="width:82%"></span></div><div class="progress-foot"><span>Kebaikanmu menghadirkan harapan baru</span><span>82%</span></div></div><button class="button button-outline campaign-donate" type="button" data-donate data-program="Uluran tangan untuk keluarga">Dukung program <span>↗</span></button></div>
+          </article>
+          <article class="campaign-card" data-category="Ekonomi" data-search="umkm ekonomi pemberdayaan usaha mikro modal">
+            <div class="campaign-image"><img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="Pelaku usaha kecil berdiskusi"><span class="campaign-tag">Ekonomi</span><button class="save-button" type="button" aria-label="Simpan program">♡</button></div>
+            <div class="campaign-content"><div class="campaign-meta"><span>✳ Ekonomi</span><span>Program berkelanjutan</span></div><h3>Usaha tumbuh, keluarga berdaya</h3><p>Dukung pendampingan dan penguatan usaha kecil agar manfaatnya menjalar lebih luas.</p><div class="campaign-progress"><div class="progress-label"><span>Target program</span><strong>Dukungan Anda berarti</strong></div><div class="progress-track"><span style="width:57%"></span></div><div class="progress-foot"><span>Membuka peluang, menguatkan keluarga</span><span>57%</span></div></div><button class="button button-outline campaign-donate" type="button" data-donate data-program="Usaha tumbuh, keluarga berdaya">Dukung program <span>↗</span></button></div>
+          </article>
+          <article class="campaign-card" data-category="Lingkungan" data-search="lingkungan hijau bersih tanam pohon air bumi">
+            <div class="campaign-image"><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="Tanaman hijau tumbuh di alam"><span class="campaign-tag">Lingkungan</span><button class="save-button" type="button" aria-label="Simpan program">♡</button></div>
+            <div class="campaign-content"><div class="campaign-meta"><span>✳ Lingkungan</span><span>Program berkelanjutan</span></div><h3>Rawat bumi, jaga kehidupan</h3><p>Bersama masyarakat, dukung lingkungan yang lebih bersih dan berkelanjutan.</p><div class="campaign-progress"><div class="progress-label"><span>Target program</span><strong>Dukungan Anda berarti</strong></div><div class="progress-track"><span style="width:39%"></span></div><div class="progress-foot"><span>Langkah kecil untuk masa depan</span><span>39%</span></div></div><button class="button button-outline campaign-donate" type="button" data-donate data-program="Rawat bumi, jaga kehidupan">Dukung program <span>↗</span></button></div>
+          </article>
+          <article class="campaign-card" data-category="Kemanusiaan" data-search="zakat fitrah sedekah pangan sosial dakwah">
+            <div class="campaign-image"><img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="Bingkisan kebutuhan pokok untuk dibagikan"><span class="campaign-tag">Sosial &amp; dakwah</span><button class="save-button" type="button" aria-label="Simpan program">♡</button></div>
+            <div class="campaign-content"><div class="campaign-meta"><span>✳ Sosial &amp; dakwah</span><span>Program berkelanjutan</span></div><h3>Hangatkan hari dengan berbagi</h3><p>Salurkan zakat, infak, dan sedekah untuk mendukung kegiatan sosial di sekitar kita.</p><div class="campaign-progress"><div class="progress-label"><span>Target program</span><strong>Dukungan Anda berarti</strong></div><div class="progress-track"><span style="width:73%"></span></div><div class="progress-foot"><span>Berbagi manfaat, menumbuhkan kepedulian</span><span>73%</span></div></div><button class="button button-outline campaign-donate" type="button" data-donate data-program="Hangatkan hari dengan berbagi">Dukung program <span>↗</span></button></div>
+          </article>
+        </div>
+        <p class="campaign-disclaimer">Capaian visual pada kartu merupakan ilustrasi, bukan laporan donasi terkini. Konfirmasikan informasi program terbaru kepada Lazismu Kabupaten Batu Bara.</p>
+        <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>Program belum ditemukan</h3><p>Coba kata kunci atau kategori lain, ya.</p><button class="button button-outline" id="clear-search" type="button">Lihat semua program</button></div>
+      </div>
+    </section>
+
+    <section class="about-band" id="tentang">
+      <div class="shell about-inner">
+        <div class="about-symbol">✳</div>
+        <div><span class="section-kicker">TENTANG LAZISMU</span><h2>Amanah dalam kebaikan.<br><span>Nyata dalam manfaat.</span></h2></div>
+        <p>Lazismu adalah lembaga zakat nasional yang berkhidmat mengelola dana zakat, infak, sedekah, dan dana kedermawanan lainnya secara amanah dan profesional. Bersama masyarakat Batu Bara, kita kuatkan kepedulian menjadi aksi nyata.</p>
+        <a class="button button-light" href="#publikasi">Kenali kegiatan kami <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="section publication-section" id="publikasi">
+      <div class="shell">
+        <div class="section-heading publication-heading">
+          <div><span class="section-kicker">CERITA DARI LAPANGAN</span><h2>Jejak <span>kebaikan</span></h2></div>
+          <span class="publication-note">Dokumentasi kegiatan &amp; kabar terbaru</span>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <article class="gallery-card gallery-feature"><img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Kegiatan belajar dan bermain bersama anak-anak"><span class="gallery-label">Cerita kebaikan <span>↗</span></span><div class="gallery-overlay"><span>KEGIATAN MASYARAKAT</span><strong>Berbagi senyum, menumbuhkan harapan</strong></div></article>
+          <article class="gallery-card"><img src="https://images.unsplash.com/photo-1594708767771-a7502209ff51?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Relawan bekerja menyiapkan bantuan"><span class="gallery-label">Aksi relawan <span>↗</span></span><div class="gallery-overlay"><span>AKSI KEMANUSIAAN</span><strong>Peduli dan bergerak bersama</strong></div></article>
+          <article class="gallery-card"><img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Anak-anak tersenyum bersama"><span class="gallery-label">Kabar program <span>↗</span></span><div class="gallery-overlay"><span>PENDIDIKAN</span><strong>Semangat belajar untuk masa depan</strong></div></article>
+          <article class="gallery-card"><img src="https://images.unsplash.com/photo-1594708767771-a7502209ff51?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Paket bantuan disiapkan untuk dibagikan"><span class="gallery-label">Dokumentasi <span>↗</span></span><div class="gallery-overlay"><span>BERBAGI MANFAAT</span><strong>Satu langkah baik, banyak arti</strong></div></article>
+          <article class="gallery-card upload-tile"><div class="upload-tile-icon">＋</div><strong>Ada cerita kebaikan?</strong><span>Dokumentasi khusus pengurus</span><button class="text-link" type="button" data-login>Login &amp; unggah <span>↗</span></button></article>
+        </div>
+        <div class="upload-panel" id="upload-panel">
+          <div class="upload-intro"><span class="section-kicker">BAGIKAN CERITAMU</span><h3>Dokumentasi kebaikan</h3><p>Unggah momen kegiatan untuk melengkapi galeri. Foto hanya tersimpan di browser ini.</p></div>
+          <form id="upload-form" class="upload-form">
+            <label class="upload-drop" for="documentation-image"><span class="upload-symbol">↑</span><strong>Pilih foto dokumentasi</strong><small>JPG, PNG, atau WebP · maks. 4 MB</small><span class="file-name" id="documentation-file-name">Belum ada foto dipilih</span></label>
+            <input id="documentation-image" type="file" accept="image/jpeg,image/png,image/webp" required>
+            <label class="sr-only" for="documentation-caption">Keterangan foto</label><input id="documentation-caption" type="text" maxlength="100" placeholder="Ceritakan momen ini..." required>
+            <button class="button button-primary" type="submit">Tambahkan dokumentasi <span>↗</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta">
+      <div class="shell closing-inner"><div><span class="section-kicker">LANGKAH BAIK DIMULAI HARI INI</span><h2>Satu kebaikanmu,<br><span>begitu berarti.</span></h2><p>Jadilah bagian dari gerakan kebaikan untuk sesama di Batu Bara.</p></div><button class="button button-dark" type="button" data-donate>Salurkan kebaikan <span>↗</span></button><span class="closing-flower">✳</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-main">
+      <div class="footer-brand"><img src="6071075391641687590.jpg" alt="Lazismu Kabupaten Batu Bara"><p>Menguatkan kepedulian,<br>menumbuhkan harapan.</p></div>
+      <div class="footer-links"><strong>Jelajahi</strong><a href="#program">Program kebaikan</a><a href="#tentang">Tentang kami</a><a href="#publikasi">Dokumentasi</a></div>
+      <div class="footer-links"><strong>Salurkan kebaikan</strong><a href="#program">Zakat &amp; infak</a><button type="button" data-donate>Donasi sekarang</button><button type="button" data-admin>Kelola konten</button></div>
+      <div class="footer-contact"><strong>Lazismu Kabupaten Batu Bara</strong><p>Informasi layanan dan rekening donasi resmi dapat dikonfirmasi langsung melalui kantor Lazismu setempat.</p><span class="contact-note">Pastikan konfirmasi sebelum melakukan transfer.</span></div>
+    </div>
+    <div class="shell footer-bottom"><span>© <span id="current-year"></span> Lazismu Kabupaten Batu Bara</span><span>Menebar kebaikan, menguatkan Indonesia.</span></div>
+  </footer>
+
+  <nav class="mobile-nav" aria-label="Navigasi mobile">
+    <a class="mobile-nav-item active" href="#beranda"><span>⌂</span>Beranda</a>
+    <a class="mobile-nav-item" href="#program"><span>✳</span>Program</a>
+    <button class="mobile-nav-item mobile-donate" type="button" data-donate><span>♡</span>Donasi</button>
+    <a class="mobile-nav-item" href="#publikasi"><span>▤</span>Kabar</a>
+    <button class="mobile-nav-item" type="button" data-login><span>⚙</span>Login</button>
+  </nav>
+
+  <dialog class="modal" id="donation-modal" aria-labelledby="donation-title">
+    <div class="modal-panel donation-panel">
+      <button class="modal-close" type="button" data-close aria-label="Tutup">×</button>
+      <div class="modal-mark">✳</div><span class="section-kicker">TITIPKAN KEBAIKANMU</span>
+      <h2 id="donation-title">Mari <span>berbagi</span></h2>
+      <p class="modal-lead" id="donation-program-name">Pilih nominal dan niatkan kebaikan hari ini.</p>
+      <div class="amount-grid" role="group" aria-label="Pilih nominal donasi">
+        <button type="button" data-amount="25000">Rp25.000</button><button type="button" data-amount="50000">Rp50.000</button><button type="button" data-amount="100000">Rp100.000</button><button type="button" data-amount="250000">Rp250.000</button>
+      </div>
+      <label class="field-label" for="donation-amount">Nominal lainnya</label><div class="currency-field"><span>Rp</span><input id="donation-amount" type="number" min="1000" step="1000" placeholder="Masukkan nominal"></div>
+      <label class="field-label" for="donor-name">Nama (opsional)</label><input class="text-field" id="donor-name" maxlength="80" placeholder="Nama baikmu">
+      <button class="button button-primary modal-submit" id="donation-continue" type="button">Lanjutkan niat baik <span>↗</span></button>
+      <p class="fine-print">Halaman ini tidak memproses pembayaran. Untuk informasi rekening donasi resmi, silakan hubungi kantor Lazismu Kabupaten Batu Bara dan konfirmasi sebelum transfer.</p>
+      <div class="donation-message" id="donation-message" role="status" hidden></div>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="login-modal" aria-labelledby="login-title">
+    <div class="modal-panel login-panel">
+      <button class="modal-close" type="button" data-close aria-label="Tutup">×</button>
+      <div class="modal-mark">⚙</div><span class="section-kicker">AREA PENGURUS</span>
+      <h2 id="login-title">Login <span>Lazismu</span></h2>
+      <p class="modal-lead">Masukkan ID pengurus untuk mengelola konten dan dokumentasi.</p>
+      <form id="login-form">
+        <label class="field-label" for="login-id">ID Pengurus</label><input class="text-field" id="login-id" inputmode="numeric" maxlength="30" autocomplete="username" required>
+        <label class="field-label" for="login-password">Password</label><input class="text-field" id="login-password" type="password" autocomplete="current-password" required>
+        <button class="button button-primary modal-submit" type="submit">Masuk pengurus <span>↗</span></button>
+      </form>
+      <p class="fine-print">Password awal adalah ID pengurus. Segera ubah password pada versi server produksi.</p>
+      <div class="admin-message" id="login-message" role="status" hidden></div>
+    </div>
+  </dialog>
+
+  <dialog class="modal" id="admin-modal" aria-labelledby="admin-title">
+    <div class="modal-panel admin-panel">
+      <button class="modal-close" type="button" data-close aria-label="Tutup">×</button>
+      <div class="modal-mark">✳</div><span class="section-kicker">PENGATURAN LOKAL</span>
+      <h2 id="admin-title">Kelola <span>konten</span></h2>
+      <p class="modal-lead">Sesuaikan judul dan visual halaman ini. Perubahan disimpan hanya di browser perangkat ini.</p>
+      <form id="admin-form">
+        <label class="field-label" for="edit-title">Judul utama</label><input class="text-field" id="edit-title" maxlength="100" required>
+        <label class="field-label" for="edit-subtitle">Deskripsi singkat</label><textarea class="text-field" id="edit-subtitle" rows="3" maxlength="220" required></textarea>
+        <label class="field-label" for="edit-hero-image">Ganti foto utama (opsional)</label><input class="file-field" id="edit-hero-image" type="file" accept="image/jpeg,image/png,image/webp">
+        <div class="admin-actions"><button class="button button-primary" type="submit">Simpan perubahan <span>↗</span></button><button class="button button-quiet" id="reset-content" type="button">Pulihkan bawaan</button></div>
+      </form>
+      <p class="fine-print">Pengelolaan ini adalah demonstrasi lokal, bukan panel admin yang terhubung ke server.</p>
+      <div class="admin-message" id="admin-message" role="status" hidden></div>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
